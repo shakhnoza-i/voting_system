@@ -4,9 +4,9 @@ import psycopg2
 from psycopg2.errors import DivisionByZero
 from dotenv import load_dotenv
 import database
-from config import settings
 
-DATABASE_PROMPT = settings.DATABASE_URL
+
+DATABASE_PROMPT = "Enter DATABASE_URI here or it would be loaded from .env1"
 
 MENU_PROMPT = """-- Menu --
 
