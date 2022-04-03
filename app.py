@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 import database
 
 
-DATABASE_PROMPT = "Enter DATABASE_URI here or it would be loaded from .env1"
+DATABASE_PROMPT = "Enter DATABASE_URI here or it would be loaded from .env"
 
 MENU_PROMPT = """-- Menu --
 
